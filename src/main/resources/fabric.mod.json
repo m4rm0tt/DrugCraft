@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "drugcraft",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "DrugCraft",
+	"description": "A Minecraft mod introducing cannabis and cocaine production systems",
 	"authors": [
-		"Me!"
+		"m4rm0tt"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/m4rm0tt/DrugCraft",
+		"sources": "https://github.com/m4rm0tt/DrugCraft"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/drugcraft/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.m4rm0tt.drugcraft.DrugCraftMod"
 		],
 		"client": [
-			"com.example.client.ExampleModClient"
+			"com.m4rm0tt.drugcraft.client.DrugCraftModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"drugcraft.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "drugcraft.client.mixins.json",
 			"environment": "client"
 		}
 	],

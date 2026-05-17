@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.mixin",
+	"package": "com.m4rm0tt.drugcraft.client.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
+	"client": [
+		"DrugCraftClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

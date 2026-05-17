@@ -18,7 +18,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"modid" {
+		"drugcraft" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
