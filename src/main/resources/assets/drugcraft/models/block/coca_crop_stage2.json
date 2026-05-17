@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "drugcraft:block/coca_crop_stage2"
+  }
+}

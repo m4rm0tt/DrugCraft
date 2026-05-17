@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "drugcraft:block/cannabis_crop_stage3"
+  }
+}

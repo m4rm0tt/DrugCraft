@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 
 import com.m4rm0tt.drugcraft.registry.ModBlocks;
 import com.m4rm0tt.drugcraft.registry.ModItems;
+import com.m4rm0tt.drugcraft.registry.ModItemGroups;
 import com.m4rm0tt.drugcraft.registry.ModEffects;
 import com.m4rm0tt.drugcraft.registry.ModBlockEntities;
 
@@ -19,6 +20,7 @@ public class DrugCraftMod implements ModInitializer {
 
 		ModBlocks.init();
 		ModItems.init();
+		ModItemGroups.init();
 		ModEffects.init();
 		ModBlockEntities.init();
 
